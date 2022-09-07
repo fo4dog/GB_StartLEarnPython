@@ -19,7 +19,7 @@ def multipluy_lst(poses, lst):
     return mult
 
 
-with open('numbers.txt') as f:
+with open('numbers.txt') as f: # файл должен находиться в той же директории
     file = f.read()
 
 numb = file.split()
